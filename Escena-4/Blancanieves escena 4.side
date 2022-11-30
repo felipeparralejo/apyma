@@ -1,0 +1,97 @@
+{
+  "id": "48a9a1aa-fe06-41b8-8d94-f1512acdca9d",
+  "version": "2.0",
+  "name": "Blancanieves escena 4",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "ce69f169-24aa-48c0-8ed7-c0a5b296e043",
+    "name": "Test 1",
+    "commands": [{
+      "id": "35d4d44a-2e61-4447-a897-c4d1328eaf49",
+      "comment": "",
+      "command": "open",
+      "target": "/Escena-4/escena-4.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73c7da57-dc9b-44f5-8221-c9251e5051bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "817x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e14d4e89-2396-4ede-832a-3f5067c57174",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6461eb59-ad2d-44c3-8e7d-d45f20c7cf11",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "Iba una caballero paseando con su caballo, cuando de repente se encuentra con el entierro de una chica. Un grupo de 7 personas bajitas transportaban sobre sus hombros un ataúd de cristal en el cual iba Blancanieves"
+    }, {
+      "id": "e5e680f6-34b5-49c1-a8ae-ce6be363b1b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'De manera repentina, Blancanieves despierta.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "551f6908-3a6c-40ec-a30d-feb0746ffef6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'De manera repentina, Blancanieves despierta.')]", "xpath:innerText"]
+      ],
+      "value": "De manera repentina, Blancanieves despierta."
+    }, {
+      "id": "de17fc9d-025c-44a8-ac91-66aefe053272",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "Iba una caballero paseando con su caballo, cuando de repente se encuentra con el entierro de una chica. Un grupo de 7 personas bajitas transportaban sobre sus hombros un ataúd de cristal en el cual iba Blancanieves"
+    }, {
+      "id": "f9458d75-2c62-4eb7-ab4f-ce146e018bd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b2ab89be-4847-47a3-bd0e-a88ef9660b2e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ce69f169-24aa-48c0-8ed7-c0a5b296e043"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
